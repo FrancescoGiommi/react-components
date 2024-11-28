@@ -16,10 +16,19 @@ BONUS:
     Invece di utilizzare un unico file index.css separiamo lo style utilizzando i CSS Modules */
 
 import { useState } from "react";
+import Header from "./components/Header";
+import Main from "./components/Main";
+import Footer from "./components/Footer";
 import "./App.css";
 
 function App() {
-  return <></>;
+  return (
+    <>
+      <Header />
+      <Main />
+      <Footer />
+    </>
+  );
 }
 
 export default App;
