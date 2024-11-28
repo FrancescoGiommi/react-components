@@ -2,7 +2,11 @@
 export default function Header() {
   return (
     <>
-      <header></header>
+      <header>
+        <div className="container">
+          <h1 className="text-center m-3">Il mio blog</h1>
+        </div>
+      </header>
     </>
   );
 }
