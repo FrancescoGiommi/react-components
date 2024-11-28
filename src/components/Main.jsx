@@ -3,12 +3,15 @@ export default function Main() {
   return (
     <>
       <main>
-        <div className="container">
-          <div className="card text-start" style={{ width: "500px" }}>
+        <div className="main-container">
+          <div
+            className="card text-start m-auto mt-5"
+            style={{ width: "500px" }}
+          >
             <div>
               <img
                 className="img-fluid rounded"
-                style={{ width: "500px" }}
+                style={{ width: "600px" }}
                 src="public/img.png"
                 alt="image"
               />
